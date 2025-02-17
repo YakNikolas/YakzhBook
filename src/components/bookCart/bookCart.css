@@ -1,0 +1,94 @@
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f8fc;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: stretch;
+    justify-content: space-between
+}
+
+.book-card-image img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-card-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.book-card-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.book-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.book-card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.book-card-rating {
+    display: flex;
+    gap: 2px;
+    color: #ffb400;
+    font-size: 14px;
+}
+.book-link {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+.book-card-button {
+    font-size: 16px;
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+.book-card-button:hover{
+    background-color: #0056b3;
+}
+.added {
+    background-color: #0056b3;
+    transition: 0.3s;
+}
+
+.added:hover {
+    background-color: rgb(255, 0, 0) ;
+}
